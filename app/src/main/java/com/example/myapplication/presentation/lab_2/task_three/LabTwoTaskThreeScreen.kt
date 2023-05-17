@@ -59,7 +59,7 @@ fun LabTwoTaskThreeScreen(navController: NavHostController) {
                 title = { Text(text = "Лабораторная работа 2") },
                 scrollBehavior = scrollBehavior,
                 actions = {
-                    GitHubButton(url = Constants.urls.THIRD_URL)
+                    GitHubButton(url = Constants.urls.LabTwo.THIRD_URL)
                 })
         },
 

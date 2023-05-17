@@ -47,7 +47,7 @@ fun LabThreeFoureTaskFiveScreen(navController: NavHostController) {
 
                     } },
                 title = { Text(text = "Лабораторная работа 3-4")  } ,scrollBehavior = scrollBehavior, actions = {
-                    GitHubButton(url = Constants.urls.FIRST_URL)
+                    GitHubButton(url = Constants.urls.LabThreeFour.FIFTH_URL)
                 })
         },
 
@@ -61,7 +61,7 @@ fun LabThreeFoureTaskFiveScreen(navController: NavHostController) {
                     .fillMaxSize()
             ) {
                 Text(
-                    text = "Задание 1",
+                    text = "Задание 5",
                     textAlign = TextAlign.Center
                 )
                 Spacer(
@@ -75,7 +75,7 @@ fun LabThreeFoureTaskFiveScreen(navController: NavHostController) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(text = "Off")
                     Spacer(modifier = Modifier.padding(horizontal = 4.dp))
-                    SwitchButton(checkedState = true, onCheckedChange = { isChecked -> })
+                    SwitchButton(checkedState = false, onCheckedChange = { isChecked -> })
                     Spacer(modifier = Modifier.padding(horizontal = 4.dp))
                     Text(text = "On")
                 }

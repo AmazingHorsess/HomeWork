@@ -59,7 +59,7 @@ fun LabTwoTaskFiveScreen(
                 title = { Text(text = "Лабораторная работа 2") },
                 scrollBehavior = scrollBehavior,
                 actions = {
-                    GitHubButton(url = Constants.urls.FIFTH_URL)
+                    GitHubButton(url = Constants.urls.LabTwo.FIFTH_URL)
                 })
         },
         bottomBar = {

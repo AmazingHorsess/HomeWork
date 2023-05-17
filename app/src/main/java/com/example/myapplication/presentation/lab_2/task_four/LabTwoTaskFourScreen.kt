@@ -54,7 +54,7 @@ fun LabTwoTaskFourScreen(navController: NavHostController) {
                 title = { Text(text = "Лабораторная работа 2") },
                 scrollBehavior = scrollBehavior,
                 actions = {
-                    GitHubButton(url = Constants.urls.FOURTH_URL)
+                    GitHubButton(url = Constants.urls.LabTwo.FOURTH_URL)
                 })
         },
 

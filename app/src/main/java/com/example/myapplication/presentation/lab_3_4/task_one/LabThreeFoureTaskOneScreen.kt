@@ -53,7 +53,7 @@ fun LabThreeFoureTaskOneScreen(navController: NavHostController) {
                         },
                 scrollBehavior = scrollBehavior,
                 actions = {
-                    GitHubButton(url = Constants.urls.FIRST_URL)
+                    GitHubButton(url = Constants.urls.LabThreeFour.FIRST_URL)
                 }
             )
         },

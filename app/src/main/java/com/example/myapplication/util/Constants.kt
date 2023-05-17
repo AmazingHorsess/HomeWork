@@ -30,10 +30,22 @@ object Constants {
         }
     }
     object urls{
-        const val FIRST_URL = "https://github.com/AmazingHorsess/HomeWork/blob/master/app/src/main/java/com/example/myapplication/presentation/task_one/OneScreen.kt"
-        const val SECOND_URL = "https://github.com/AmazingHorsess/HomeWork/blob/master/app/src/main/java/com/example/myapplication/presentation/task_two/TwoScreen.kt"
-        const val THIRD_URL = "https://github.com/AmazingHorsess/HomeWork/blob/master/app/src/main/java/com/example/myapplication/presentation/task_three/ThreeScreen.kt"
-        const val FOURTH_URL = "https://github.com/AmazingHorsess/HomeWork/blob/master/app/src/main/java/com/example/myapplication/presentation/task_four/FourScreen.kt"
-        const val FIFTH_URL = "https://github.com/AmazingHorsess/HomeWork/blob/master/app/src/main/java/com/example/myapplication/presentation/task_five/FiveScreen.kt"
-    }
+        object LabTwo{
+            const val FIRST_URL = "https://github.com/AmazingHorsess/HomeWork/blob/master/app/src/main/java/com/example/myapplication/presentation/task_one/OneScreen.kt"
+            const val SECOND_URL = "https://github.com/AmazingHorsess/HomeWork/blob/master/app/src/main/java/com/example/myapplication/presentation/task_two/TwoScreen.kt"
+            const val THIRD_URL = "https://github.com/AmazingHorsess/HomeWork/blob/master/app/src/main/java/com/example/myapplication/presentation/task_three/ThreeScreen.kt"
+            const val FOURTH_URL = "https://github.com/AmazingHorsess/HomeWork/blob/master/app/src/main/java/com/example/myapplication/presentation/task_four/FourScreen.kt"
+            const val FIFTH_URL = "https://github.com/AmazingHorsess/HomeWork/blob/master/app/src/main/java/com/example/myapplication/presentation/task_five/FiveScreen.kt"
+        }
+        object LabThreeFour{
+            const val FIRST_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab3-4/app/src/main/java/com/example/myapplication/presentation/lab_3_4/task_one/LabThreeFoureTaskOneScreen.kt"
+            const val SECOND_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab3-4/app/src/main/java/com/example/myapplication/presentation/lab_3_4/task_two/LabThreeFoureTaskTwoScreen.kt"
+            const val THIRD_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab3-4/app/src/main/java/com/example/myapplication/presentation/lab_3_4/task_three/LabThreeFourTaskThreeScreen.kt"
+            const val FOURTH_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab3-4/app/src/main/java/com/example/myapplication/presentation/lab_3_4/task_four/LabThreeFourTaskFourScreen.kt"
+            const val FIFTH_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab3-4/app/src/main/java/com/example/myapplication/presentation/lab_3_4/task_five/LabThreeFoureTaskFiveScreen.kt"
+            const val SIXTH_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab3-4/app/src/main/java/com/example/myapplication/presentation/lab_3_4/task_six/LabThreeFoureTaskSixScreen.kt"
+        }
+
+        }
+
 }
