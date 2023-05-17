@@ -1,4 +1,4 @@
-package com.example.myapplication.presentation.task_one.components
+package com.example.myapplication.presentation.lab_2.task_one.components
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding

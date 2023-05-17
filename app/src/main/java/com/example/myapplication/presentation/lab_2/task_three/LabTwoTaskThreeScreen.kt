@@ -1,4 +1,4 @@
-package com.example.myapplication.presentation.task_three
+package com.example.myapplication.presentation.lab_2.task_three
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -18,8 +18,10 @@ import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowForward
-import androidx.compose.material3.Button
+import androidx.compose.material.icons.filled.Home
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
@@ -34,24 +36,30 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.example.myapplication.presentation.components.GitHubButton
 import com.example.myapplication.presentation.navigation.NavigationRoute
-import com.example.myapplication.presentation.task_one.components.ArrowButton
-import com.example.myapplication.presentation.task_three.components.CustomCard
-import com.example.myapplication.presentation.task_two.components.HintBlockWithAnimatedPopup
+import com.example.myapplication.presentation.lab_2.task_one.components.ArrowButton
+import com.example.myapplication.presentation.lab_2.task_three.components.CustomCard
 import com.example.myapplication.util.Constants
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @OptIn(ExperimentalFoundationApi::class, ExperimentalMaterial3Api::class)
 @Composable
-fun ThreeScreen(navController: NavHostController) {
+fun LabTwoTaskThreeScreen(navController: NavHostController) {
     val scrollBehavior = TopAppBarDefaults.pinnedScrollBehavior()
 
     Scaffold(
 
         topBar = {
-            TopAppBar(title = { Text(text = "Лабораторная работа 2") },
+            TopAppBar(
+                navigationIcon = {
+                    IconButton(onClick = { navController.navigate(NavigationRoute.LabTwo.TaskTwoLabTwo.route) }) {
+                        Icon(imageVector = Icons.Default.Home, contentDescription = "Home",Modifier.size(36.dp))
+
+                    } },
+
+                title = { Text(text = "Лабораторная работа 2") },
                 scrollBehavior = scrollBehavior,
                 actions = {
-                    GitHubButton(url = Constants.urls.FIRST_URL)
+                    GitHubButton(url = Constants.urls.THIRD_URL)
                 })
         },
 
@@ -72,7 +80,7 @@ fun ThreeScreen(navController: NavHostController) {
             )
 
             Text(
-                text = "Задание 5 + \n  Разработать интерфейс слайдера"
+                text = "Задание 3 + \n  Разработать интерфейс слайдера"
                        ,
 
                 textAlign = TextAlign.Center)
@@ -121,7 +129,7 @@ fun ThreeScreen(navController: NavHostController) {
             ArrowButton(
                 text = "Перейти к четвертому заданию",
                 icon = Icons.Default.ArrowForward,
-                onClick = { navController.navigate(NavigationRoute.TaskFour.route) }
+                onClick = { navController.navigate(NavigationRoute.LabTwo.TaskFourLabTwo.route) }
             )
             Spacer(
                 modifier = Modifier.padding(vertical = 16.dp)

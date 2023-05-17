@@ -15,7 +15,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
+import com.example.myapplication.R
 
 @Composable
 fun GitHubButton(
@@ -26,19 +28,14 @@ fun GitHubButton(
     IconButton(
         onClick = {  uriHandler.openUri(uri = url) }
     ) {
-        Box(
-            modifier = Modifier
-                .size(48.dp)
-                .background(Color.Red, shape = RoundedCornerShape(30.dp)),
-            contentAlignment = Alignment.Center
-        ) {
+
             Icon(
-                imageVector = Icons.Filled.Search,
+                painterResource(id = R.drawable.githubwhite)  ,
                 contentDescription = "Search",
                 tint = Color.White,
-                modifier = Modifier.size(24.dp)
+                modifier = Modifier.size(36.dp)
             )
-        }
+
     }
     
 }

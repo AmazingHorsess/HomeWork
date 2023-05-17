@@ -1,4 +1,4 @@
-package com.example.myapplication.presentation.task_three.components
+package com.example.myapplication.presentation.lab_2.task_three.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

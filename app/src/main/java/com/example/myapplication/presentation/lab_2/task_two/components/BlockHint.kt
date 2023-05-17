@@ -1,4 +1,4 @@
-package com.example.myapplication.presentation.task_two.components
+package com.example.myapplication.presentation.lab_2.task_two.components
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.tween
