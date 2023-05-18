@@ -64,7 +64,7 @@ fun LabTwoTaskTwoScreen(navController: NavHostController) {
                     .fillMaxSize()
             ) {
                 Text(
-                    text = "Задание 2",
+                    text = "Задание 1",
                     textAlign = TextAlign.Center
                 )
                 Spacer(

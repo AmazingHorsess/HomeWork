@@ -10,7 +10,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.ArrowForward
-import androidx.compose.material.icons.filled.Home
 import androidx.compose.material3.Button
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -58,7 +57,7 @@ fun LabThreeFoureTaskFourScreen(navController: NavHostController) {
         topBar = {
             TopAppBar(
                 navigationIcon = {
-                    IconButton(onClick = { navController.navigate(NavigationRoute.LabThree.TaskThreeLabThree.route) }) {
+                    IconButton(onClick = { navController.navigate(NavigationRoute.LabThreeFour.TaskThreeLabThree.route) }) {
                         Icon(imageVector = Icons.Default.ArrowBack, contentDescription = "Home",Modifier.size(36.dp))
 
                     } },
@@ -122,7 +121,7 @@ fun LabThreeFoureTaskFourScreen(navController: NavHostController) {
                 ArrowButton(
                     text = "Перейти к пятому заданию",
                     icon = Icons.Default.ArrowForward,
-                    onClick = { navController.navigate(NavigationRoute.LabThree.TaskFiveLabThree.route) }
+                    onClick = { navController.navigate(NavigationRoute.LabThreeFour.TaskFiveLabThree.route) }
                 )
 
 

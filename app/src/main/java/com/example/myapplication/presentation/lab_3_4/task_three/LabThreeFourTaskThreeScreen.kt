@@ -11,7 +11,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.ArrowForward
-import androidx.compose.material.icons.filled.Home
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ExposedDropdownMenuBox
@@ -53,7 +52,7 @@ fun LabThreeFoureTaskThreeScreen(navController: NavHostController) {
         topBar = {
             TopAppBar(
                 navigationIcon = {
-                    IconButton(onClick = { navController.navigate(NavigationRoute.LabThree.TaskTwoLabThree.route) }) {
+                    IconButton(onClick = { navController.navigate(NavigationRoute.LabThreeFour.TaskTwoLabThree.route) }) {
                         Icon(imageVector = Icons.Default.ArrowBack, contentDescription = "Home",Modifier.size(36.dp))
 
                     } },
@@ -130,7 +129,7 @@ fun LabThreeFoureTaskThreeScreen(navController: NavHostController) {
             ArrowButton(
                 text = "Перейти к четвертому заданию",
                 icon = Icons.Default.ArrowForward,
-                onClick = { navController.navigate(NavigationRoute.LabThree.TaskFourLabThree.route) }
+                onClick = { navController.navigate(NavigationRoute.LabThreeFour.TaskFourLabThree.route) }
             )
 
 

@@ -1,14 +1,12 @@
 package com.example.myapplication.presentation.lab_3_4.task_one
 
 import android.annotation.SuppressLint
-import android.widget.Space
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowForward
 import androidx.compose.material.icons.filled.Home
@@ -91,7 +89,7 @@ fun LabThreeFoureTaskOneScreen(navController: NavHostController) {
                 ArrowButton(
                     text = "Перейти к второму заданию",
                     icon = Icons.Default.ArrowForward,
-                    onClick = { navController.navigate(NavigationRoute.LabThree.TaskTwoLabThree.route) }
+                    onClick = { navController.navigate(NavigationRoute.LabThreeFour.TaskTwoLabThree.route) }
                 )
 
 

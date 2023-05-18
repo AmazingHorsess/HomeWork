@@ -22,6 +22,8 @@ import androidx.compose.ui.unit.dp
 import com.example.myapplication.presentation.navigation.TasksNavHost
 
 import com.example.myapplication.ui.theme.MyApplicationTheme
+import dagger.hilt.android.AndroidEntryPoint
+
 
 class MainActivity : ComponentActivity() {
     @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")

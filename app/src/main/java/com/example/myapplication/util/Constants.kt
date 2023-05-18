@@ -27,6 +27,12 @@ object Constants {
             const val TASK_LAB_3_4_TASK5 = "task_lab4_five"
             const val TASK_LAB_3_4_TASK6 = "task_lab4_six"
 
+            const val TASK_LAB5_TASK1 = "task_lab5_one"
+            const val TASK_LAB5_TASK2 = "task_lab5_two"
+            const val TASK_LAB5_TASK3 = "task_lab5_three"
+            const val TASK_LAB5_TASK4 = "task_lab5_four"
+
+
         }
     }
     object urls{
@@ -44,6 +50,11 @@ object Constants {
             const val FOURTH_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab3-4/app/src/main/java/com/example/myapplication/presentation/lab_3_4/task_four/LabThreeFourTaskFourScreen.kt"
             const val FIFTH_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab3-4/app/src/main/java/com/example/myapplication/presentation/lab_3_4/task_five/LabThreeFoureTaskFiveScreen.kt"
             const val SIXTH_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab3-4/app/src/main/java/com/example/myapplication/presentation/lab_3_4/task_six/LabThreeFoureTaskSixScreen.kt"
+        }
+        object LabFive{
+            const val FIRST_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab5/app/src/main/java/com/example/myapplication/presentation/lab_5/task_one/LabFiveTaskOneScreen.kt"
+            const val SECOND_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab5/app/src/main/java/com/example/myapplication/presentation/lab_5/task_two/LabFiveTaskTwoScreen.kt"
+            const val THIRD_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab5/app/src/main/java/com/example/myapplication/presentation/lab_5/task_three/LabFiveTaskThreeScreen.kt"
         }
 
         }

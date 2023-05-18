@@ -31,9 +31,11 @@ import com.example.myapplication.util.Constants
 fun MainScreen(navController: NavController) {
     Scaffold(
         content = {
+
             Surface(
                 color = MaterialTheme.colorScheme.background
             ) {
+
                 Column(
                     horizontalAlignment = Alignment.CenterHorizontally,
                     modifier = Modifier
@@ -81,7 +83,7 @@ fun MainScreen(navController: NavController) {
                     ) {
                         Text(text = "Лабораторная работа 5")
                         Spacer(modifier = Modifier.padding(horizontal = 1.dp))
-                        Button(onClick = { navController.navigate(Constants.Screens.TaskScreens.TASK_LAB2_TASK1) }) {
+                        Button(onClick = { navController.navigate(Constants.Screens.TaskScreens.TASK_LAB5_TASK1) }) {
                             Text(text = "Перейти")
 
                         }

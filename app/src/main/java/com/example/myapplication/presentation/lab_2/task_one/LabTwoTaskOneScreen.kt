@@ -1,6 +1,7 @@
 package com.example.myapplication.presentation.lab_2.task_one
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -26,9 +27,11 @@ import androidx.compose.runtime.setValue
 
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
+import com.example.myapplication.ValidationActivity
 import com.example.myapplication.presentation.components.GitHubButton
 
 import com.example.myapplication.presentation.navigation.NavigationRoute
@@ -97,6 +100,12 @@ fun LabTwoTaskOneScreen(navController: NavHostController) {
                Spacer(
                    modifier = Modifier.padding(vertical = 16.dp)
                )
+               val context = LocalContext.current
+               Button(onClick = { val intent = Intent(context, ValidationActivity::class.java)
+
+                   context.startActivity(intent) }) {
+                   
+               }
 
 
 
