@@ -52,9 +52,9 @@ object Constants {
             const val SIXTH_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab3-4/app/src/main/java/com/example/myapplication/presentation/lab_3_4/task_six/LabThreeFoureTaskSixScreen.kt"
         }
         object LabFive{
-            const val FIRST_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab5/app/src/main/java/com/example/myapplication/presentation/lab_5/task_one/LabFiveTaskOneScreen.kt"
-            const val SECOND_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab5/app/src/main/java/com/example/myapplication/presentation/lab_5/task_two/LabFiveTaskTwoScreen.kt"
-            const val THIRD_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab5/app/src/main/java/com/example/myapplication/presentation/lab_5/task_three/LabFiveTaskThreeScreen.kt"
+            const val FIRST_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab5/app/src/main/java/com/example/myapplication/presentation/lab5/task_one/LabFiveTaskOneScreen.kt"
+            const val SECOND_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab5/app/src/main/java/com/example/myapplication/presentation/lab5/task_two/LabFiveTaskTwoScreen.kt"
+            const val THIRD_URL = "https://github.com/AmazingHorsess/HomeWork/blob/lab5/app/src/main/java/com/example/myapplication/presentation/lab5/task_three/LabFiveTaskThree.kt"
         }
 
         }
